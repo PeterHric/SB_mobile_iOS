@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4DDFE72B1909DC000502D3 /* SmartBooks_SKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DDFE62B1909DC000502D3 /* SmartBooks_SKApp.swift */; };
+		EF4DDFE92B1909DC000502D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DDFE82B1909DC000502D3 /* ContentView.swift */; };
+		EF4DDFEB2B1909DD000502D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DDFEA2B1909DD000502D3 /* Assets.xcassets */; };
+		EF4DDFEE2B1909DD000502D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DDFED2B1909DD000502D3 /* Preview Assets.xcassets */; };
+		EF4DDFF82B1909DD000502D3 /* SmartBooks_SKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DDFF72B1909DD000502D3 /* SmartBooks_SKTests.swift */; };
+		EF4DE0022B1909DD000502D3 /* SmartBooks_SKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE0012B1909DD000502D3 /* SmartBooks_SKUITests.swift */; };
+		EF4DE0042B1909DD000502D3 /* SmartBooks_SKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DE0032B1909DD000502D3 /* SmartBooks_SKUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4DDFF42B1909DD000502D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4DDFDB2B1909DC000502D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4DDFE22B1909DC000502D3;
+			remoteInfo = SmartBooks.SK;
+		};
+		EF4DDFFE2B1909DD000502D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4DDFDB2B1909DC000502D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4DDFE22B1909DC000502D3;
+			remoteInfo = SmartBooks.SK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4DDFE32B1909DC000502D3 /* SmartBooks.SK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBooks.SK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4DDFE62B1909DC000502D3 /* SmartBooks_SKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBooks_SKApp.swift; sourceTree = "<group>"; };
+		EF4DDFE82B1909DC000502D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4DDFEA2B1909DD000502D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4DDFED2B1909DD000502D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4DDFF32B1909DD000502D3 /* SmartBooks.SKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBooks.SKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4DDFF72B1909DD000502D3 /* SmartBooks_SKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBooks_SKTests.swift; sourceTree = "<group>"; };
+		EF4DDFFD2B1909DD000502D3 /* SmartBooks.SKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBooks.SKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4DE0012B1909DD000502D3 /* SmartBooks_SKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBooks_SKUITests.swift; sourceTree = "<group>"; };
+		EF4DE0032B1909DD000502D3 /* SmartBooks_SKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBooks_SKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4DDFE02B1909DC000502D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DDFF02B1909DD000502D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DDFFA2B1909DD000502D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4DDFDA2B1909DC000502D3 = {
+			isa = PBXGroup;
+			children = (
+				EF4DDFE52B1909DC000502D3 /* SmartBooks.SK */,
+				EF4DDFF62B1909DD000502D3 /* SmartBooks.SKTests */,
+				EF4DE0002B1909DD000502D3 /* SmartBooks.SKUITests */,
+				EF4DDFE42B1909DC000502D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4DDFE42B1909DC000502D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4DDFE32B1909DC000502D3 /* SmartBooks.SK.app */,
+				EF4DDFF32B1909DD000502D3 /* SmartBooks.SKTests.xctest */,
+				EF4DDFFD2B1909DD000502D3 /* SmartBooks.SKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4DDFE52B1909DC000502D3 /* SmartBooks.SK */ = {
+			isa = PBXGroup;
+			children = (
+				EF4DDFE62B1909DC000502D3 /* SmartBooks_SKApp.swift */,
+				EF4DDFE82B1909DC000502D3 /* ContentView.swift */,
+				EF4DDFEA2B1909DD000502D3 /* Assets.xcassets */,
+				EF4DDFEC2B1909DD000502D3 /* Preview Content */,
+			);
+			path = SmartBooks.SK;
+			sourceTree = "<group>";
+		};
+		EF4DDFEC2B1909DD000502D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF4DDFED2B1909DD000502D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4DDFF62B1909DD000502D3 /* SmartBooks.SKTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4DDFF72B1909DD000502D3 /* SmartBooks_SKTests.swift */,
+			);
+			path = SmartBooks.SKTests;
+			sourceTree = "<group>";
+		};
+		EF4DE0002B1909DD000502D3 /* SmartBooks.SKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4DE0012B1909DD000502D3 /* SmartBooks_SKUITests.swift */,
+				EF4DE0032B1909DD000502D3 /* SmartBooks_SKUITestsLaunchTests.swift */,
+			);
+			path = SmartBooks.SKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4DDFE22B1909DC000502D3 /* SmartBooks.SK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4DE0072B1909DD000502D3 /* Build configuration list for PBXNativeTarget "SmartBooks.SK" */;
+			buildPhases = (
+				EF4DDFDF2B1909DC000502D3 /* Sources */,
+				EF4DDFE02B1909DC000502D3 /* Frameworks */,
+				EF4DDFE12B1909DC000502D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBooks.SK;
+			productName = SmartBooks.SK;
+			productReference = EF4DDFE32B1909DC000502D3 /* SmartBooks.SK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4DDFF22B1909DD000502D3 /* SmartBooks.SKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4DE00A2B1909DD000502D3 /* Build configuration list for PBXNativeTarget "SmartBooks.SKTests" */;
+			buildPhases = (
+				EF4DDFEF2B1909DD000502D3 /* Sources */,
+				EF4DDFF02B1909DD000502D3 /* Frameworks */,
+				EF4DDFF12B1909DD000502D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4DDFF52B1909DD000502D3 /* PBXTargetDependency */,
+			);
+			name = SmartBooks.SKTests;
+			productName = SmartBooks.SKTests;
+			productReference = EF4DDFF32B1909DD000502D3 /* SmartBooks.SKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4DDFFC2B1909DD000502D3 /* SmartBooks.SKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4DE00D2B1909DD000502D3 /* Build configuration list for PBXNativeTarget "SmartBooks.SKUITests" */;
+			buildPhases = (
+				EF4DDFF92B1909DD000502D3 /* Sources */,
+				EF4DDFFA2B1909DD000502D3 /* Frameworks */,
+				EF4DDFFB2B1909DD000502D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4DDFFF2B1909DD000502D3 /* PBXTargetDependency */,
+			);
+			name = SmartBooks.SKUITests;
+			productName = SmartBooks.SKUITests;
+			productReference = EF4DDFFD2B1909DD000502D3 /* SmartBooks.SKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4DDFDB2B1909DC000502D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EF4DDFE22B1909DC000502D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EF4DDFF22B1909DD000502D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EF4DDFE22B1909DC000502D3;
+					};
+					EF4DDFFC2B1909DD000502D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EF4DDFE22B1909DC000502D3;
+					};
+				};
+			};
+			buildConfigurationList = EF4DDFDE2B1909DC000502D3 /* Build configuration list for PBXProject "SmartBooks.SK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4DDFDA2B1909DC000502D3;
+			productRefGroup = EF4DDFE42B1909DC000502D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4DDFE22B1909DC000502D3 /* SmartBooks.SK */,
+				EF4DDFF22B1909DD000502D3 /* SmartBooks.SKTests */,
+				EF4DDFFC2B1909DD000502D3 /* SmartBooks.SKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4DDFE12B1909DC000502D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4DDFEE2B1909DD000502D3 /* Preview Assets.xcassets in Resources */,
+				EF4DDFEB2B1909DD000502D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DDFF12B1909DD000502D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DDFFB2B1909DD000502D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4DDFDF2B1909DC000502D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4DDFE92B1909DC000502D3 /* ContentView.swift in Sources */,
+				EF4DDFE72B1909DC000502D3 /* SmartBooks_SKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DDFEF2B1909DD000502D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4DDFF82B1909DD000502D3 /* SmartBooks_SKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DDFF92B1909DD000502D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4DE0022B1909DD000502D3 /* SmartBooks_SKUITests.swift in Sources */,
+				EF4DE0042B1909DD000502D3 /* SmartBooks_SKUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4DDFF52B1909DD000502D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4DDFE22B1909DC000502D3 /* SmartBooks.SK */;
+			targetProxy = EF4DDFF42B1909DD000502D3 /* PBXContainerItemProxy */;
+		};
+		EF4DDFFF2B1909DD000502D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4DDFE22B1909DC000502D3 /* SmartBooks.SK */;
+			targetProxy = EF4DDFFE2B1909DD000502D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF4DE0052B1909DD000502D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4DE0062B1909DD000502D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4DE0082B1909DD000502D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartBooks.SK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBooks.SmartBooks-SK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4DE0092B1909DD000502D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartBooks.SK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBooks.SmartBooks-SK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF4DE00B2B1909DD000502D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBooks.SmartBooks-SKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBooks.SK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartBooks.SK";
+			};
+			name = Debug;
+		};
+		EF4DE00C2B1909DD000502D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBooks.SmartBooks-SKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBooks.SK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartBooks.SK";
+			};
+			name = Release;
+		};
+		EF4DE00E2B1909DD000502D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBooks.SmartBooks-SKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartBooks.SK;
+			};
+			name = Debug;
+		};
+		EF4DE00F2B1909DD000502D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBooks.SmartBooks-SKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartBooks.SK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4DDFDE2B1909DC000502D3 /* Build configuration list for PBXProject "SmartBooks.SK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4DE0052B1909DD000502D3 /* Debug */,
+				EF4DE0062B1909DD000502D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4DE0072B1909DD000502D3 /* Build configuration list for PBXNativeTarget "SmartBooks.SK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4DE0082B1909DD000502D3 /* Debug */,
+				EF4DE0092B1909DD000502D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4DE00A2B1909DD000502D3 /* Build configuration list for PBXNativeTarget "SmartBooks.SKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4DE00B2B1909DD000502D3 /* Debug */,
+				EF4DE00C2B1909DD000502D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4DE00D2B1909DD000502D3 /* Build configuration list for PBXNativeTarget "SmartBooks.SKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4DE00E2B1909DD000502D3 /* Debug */,
+				EF4DE00F2B1909DD000502D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4DDFDB2B1909DC000502D3 /* Project object */;
+}
